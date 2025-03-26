@@ -13,7 +13,7 @@ else:
     for i in range(n):
         for k in range(n):
             if i == k:
-                if n % 2 == 1 and i == k == n // 2:
+                if i == k == n // 2:
                     print('HORE', end=' ')
                 else:
                     print(1, end=' ')
