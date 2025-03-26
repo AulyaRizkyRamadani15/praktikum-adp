@@ -7,10 +7,10 @@ if n < 4:
     print("Jumlah baris minimal 4")
 else:
     total_boom = 0
-
+    tengah = n//2
     for i in range(n):
         for k in range(n):
-            if i == k:
+            if i == k == tengah :
                 if n % 2 == 1 and i == k == n // 2:
                     print('HORE', end=' ')
                 else:
