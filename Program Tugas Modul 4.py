@@ -2,6 +2,8 @@
 #cetak pola grid ukuran n x n
 #Jika n ganjil maka cetak nilai pada suku tengah yaitu 'HORE'
 
+import os
+os.system('cls')
 n = int(input('Inputkan jumlah baris: '))
 if n < 4:
     print("Jumlah baris minimal 4")
